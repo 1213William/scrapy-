@@ -13,8 +13,9 @@ class MzSpider(scrapy.Spider):
     name = 'mz'
     allowed_domains = ['www.win4000.com']
     start_urls = [
-        'http://www.win4000.com/wallpaper_2285_0_0_1.html',
-        'http://www.win4000.com/wallpaper_204_0_0_1.html'
+        # 'http://www.win4000.com/wallpaper_2285_0_0_1.html',
+        # 'http://www.win4000.com/wallpaper_204_0_0_1.html',
+        # 'http://www.win4000.com/wallpaper_205_0_0_1.html'
     ]
 
     def parse(self, response):
